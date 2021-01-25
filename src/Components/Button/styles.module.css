@@ -1,10 +1,16 @@
+:root {
+  --main-activeBtn-bg-color: skyblue;
+  --main-activeBtn-text-color: aliceblue;
+  --main-notActiveBtn-text-color: green;
+}
+
 .activeBtn {
-  background-color: skyblue;
-  color: aliceblue;
+  background-color: var(--main-activeBtn-bg-color);
+  color: var(--main-activeBtn-text-color);
 }
 
 .notActiveBtn {
-  color: green;
+  color: var(--main-notActiveBtn-text-color);
 }
 
 .activeBtn,

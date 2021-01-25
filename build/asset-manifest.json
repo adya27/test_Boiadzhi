@@ -1,22 +1,37 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-07-phonebook/static/css/main.33db7ebc.chunk.css",
-    "main.js": "/goit-react-hw-07-phonebook/static/js/main.72383dfe.chunk.js",
-    "main.js.map": "/goit-react-hw-07-phonebook/static/js/main.72383dfe.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-07-phonebook/static/js/runtime-main.30c2c555.js",
-    "runtime-main.js.map": "/goit-react-hw-07-phonebook/static/js/runtime-main.30c2c555.js.map",
-    "static/js/2.16c81a2f.chunk.js": "/goit-react-hw-07-phonebook/static/js/2.16c81a2f.chunk.js",
-    "static/js/2.16c81a2f.chunk.js.map": "/goit-react-hw-07-phonebook/static/js/2.16c81a2f.chunk.js.map",
-    "static/js/3.fe9c2cbe.chunk.js": "/goit-react-hw-07-phonebook/static/js/3.fe9c2cbe.chunk.js",
-    "static/js/3.fe9c2cbe.chunk.js.map": "/goit-react-hw-07-phonebook/static/js/3.fe9c2cbe.chunk.js.map",
-    "index.html": "/goit-react-hw-07-phonebook/index.html",
-    "static/css/main.33db7ebc.chunk.css.map": "/goit-react-hw-07-phonebook/static/css/main.33db7ebc.chunk.css.map",
-    "static/js/2.16c81a2f.chunk.js.LICENSE.txt": "/goit-react-hw-07-phonebook/static/js/2.16c81a2f.chunk.js.LICENSE.txt"
+    "main.css": "/test_Boiadzhi/static/css/main.3937da3e.chunk.css",
+    "main.js": "/test_Boiadzhi/static/js/main.5f96a596.chunk.js",
+    "main.js.map": "/test_Boiadzhi/static/js/main.5f96a596.chunk.js.map",
+    "runtime-main.js": "/test_Boiadzhi/static/js/runtime-main.f89b0852.js",
+    "runtime-main.js.map": "/test_Boiadzhi/static/js/runtime-main.f89b0852.js.map",
+    "static/js/2.a8516d03.chunk.js": "/test_Boiadzhi/static/js/2.a8516d03.chunk.js",
+    "static/js/2.a8516d03.chunk.js.map": "/test_Boiadzhi/static/js/2.a8516d03.chunk.js.map",
+    "static/js/3.e1212e29.chunk.js": "/test_Boiadzhi/static/js/3.e1212e29.chunk.js",
+    "static/js/3.e1212e29.chunk.js.map": "/test_Boiadzhi/static/js/3.e1212e29.chunk.js.map",
+    "index.html": "/test_Boiadzhi/index.html",
+    "static/css/main.3937da3e.chunk.css.map": "/test_Boiadzhi/static/css/main.3937da3e.chunk.css.map",
+    "static/js/2.a8516d03.chunk.js.LICENSE.txt": "/test_Boiadzhi/static/js/2.a8516d03.chunk.js.LICENSE.txt",
+    "static/media/boy.f3c295e7.mp4": "/test_Boiadzhi/static/media/boy.f3c295e7.mp4",
+    "static/media/cat.f1e619fb.svg": "/test_Boiadzhi/static/media/cat.f1e619fb.svg",
+    "static/media/dog.2bc24bae.svg": "/test_Boiadzhi/static/media/dog.2bc24bae.svg",
+    "static/media/fox.8aaf251a.svg": "/test_Boiadzhi/static/media/fox.8aaf251a.svg",
+    "static/media/koala.4c9fd264.svg": "/test_Boiadzhi/static/media/koala.4c9fd264.svg",
+    "static/media/lion.08f00e90.svg": "/test_Boiadzhi/static/media/lion.08f00e90.svg",
+    "static/media/owl.89344be8.svg": "/test_Boiadzhi/static/media/owl.89344be8.svg",
+    "static/media/penguin.89e4e341.svg": "/test_Boiadzhi/static/media/penguin.89e4e341.svg",
+    "static/media/pig.dc23449e.svg": "/test_Boiadzhi/static/media/pig.dc23449e.svg",
+    "static/media/raccoon.4ed15b50.svg": "/test_Boiadzhi/static/media/raccoon.4ed15b50.svg",
+    "static/media/react.0c7567c6.svg": "/test_Boiadzhi/static/media/react.0c7567c6.svg",
+    "static/media/sheep.3c422443.svg": "/test_Boiadzhi/static/media/sheep.3c422443.svg",
+    "static/media/shoe.6bb4d920.mp4": "/test_Boiadzhi/static/media/shoe.6bb4d920.mp4",
+    "static/media/star.9b2759e3.svg": "/test_Boiadzhi/static/media/star.9b2759e3.svg",
+    "static/media/starFilled.d17de590.svg": "/test_Boiadzhi/static/media/starFilled.d17de590.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.30c2c555.js",
-    "static/js/2.16c81a2f.chunk.js",
-    "static/css/main.33db7ebc.chunk.css",
-    "static/js/main.72383dfe.chunk.js"
+    "static/js/runtime-main.f89b0852.js",
+    "static/js/2.a8516d03.chunk.js",
+    "static/css/main.3937da3e.chunk.css",
+    "static/js/main.5f96a596.chunk.js"
   ]
 }
