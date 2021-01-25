@@ -32,6 +32,7 @@ function CardList({ data, fetchContacts, dispatchFilter }) {
     <>
       <ul className={styles.containerTable}>
         {(pathname === "/" ||
+          pathname === "/test_Boiadzhi" ||
           pathname === "/table" ||
           pathname === "/table/id" ||
           pathname === "/table/id/ascending") &&
