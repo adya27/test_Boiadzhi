@@ -1,0 +1,117 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* for preview */
+
+.containerLi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+
+  box-shadow: 4px 7px 18px 7px rgba(0, 0, 0, 0.64);
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 240px;
+
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.contactsListDataHor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+.contactsListDataVert {
+}
+
+.favorite {
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1) 200ms;
+}
+.favorite:hover {
+  transform: scale(1.1);
+}
+
+.videoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 240px;
+  width: 45%;
+
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+video {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  h3 {
+    font-size: 14px;
+
+    margin: 5px 0;
+  }
+
+  .videoContainer {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 800px) {
+  h3 {
+    font-size: 16px;
+
+    margin: 5px 0;
+  }
+
+  .videoContainer {
+    height: 140px;
+  }
+}
+
+/* for table */
+
+.container {
+  padding: 10px 40px;
+}
+.contactsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 10px 40px;
+
+  border: 2px solid grey;
+  border-radius: 5px;
+  box-shadow: 4px 7px 18px 7px rgba(0, 0, 0, 0.64);
+}
+
+.contactsItem {
+}
+
+@media screen and (max-width: 600px) {
+}

@@ -1,39 +1,13 @@
 import axios from "axios";
 
-import {
-  addContactSuccess,
-  addContactRequest,
-  addContactError,
-  deleteContactSuccess,
-  deleteContactRequest,
-  deleteContactError,
-  fetchContactSuccess,
-  fetchContactRequest,
-  fetchContactError,
-} from "./actions";
+import { fetchDataSuccess, fetchDataRequest, fetchDataError } from "./actions";
 
-const BASE_URL = "http://localhost:3004/";
+const BASE_URL = "http://localhost:3004/data";
 
-export const addContact = (data) => (dispatch) => {
-  dispatch(addContactRequest());
+export const fetchData = () => (dispatch) => {
+  dispatch(fetchDataRequest());
   axios
-    .post(`${BASE_URL}contacts`, data)
-    .then(({ data }) => dispatch(addContactSuccess(data)))
-    .catch((error) => dispatch(addContactError(error)));
-};
-
-export const deleteContact = (id) => (dispatch) => {
-  dispatch(deleteContactRequest(id));
-  axios
-    .delete(`${BASE_URL}contacts/${id}`)
-    .then(() => dispatch(deleteContactSuccess(id)))
-    .catch((error) => dispatch(deleteContactError(error)));
-};
-
-export const fetchContact = () => (dispatch) => {
-  dispatch(fetchContactRequest());
-  axios
-    .get(`${BASE_URL}contacts/`)
-    .then((data) => dispatch(fetchContactSuccess(data)))
-    .catch((error) => dispatch(fetchContactError(error)));
+    .get(`${BASE_URL}`)
+    .then((data) => dispatch(fetchDataSuccess(data)))
+    .catch((error) => dispatch(fetchDataError(error)));
 };

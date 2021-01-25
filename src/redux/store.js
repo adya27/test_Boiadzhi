@@ -15,7 +15,12 @@ import {
   // createReducer,
 } from "@reduxjs/toolkit";
 
-import { contactsReducer, filterReducer, loadingReducer } from "./reducers";
+import {
+  dataReducer,
+  filterReducer,
+  languageReducer,
+  loadingReducer,
+} from "./reducers";
 // import storage from "redux-persist/lib/storage";
 import logger from "redux-logger";
 
@@ -35,9 +40,10 @@ const middleware = [
 ];
 
 const rootReducer = combineReducers({
-  contacts: contactsReducer,
+  data: dataReducer,
   filter: filterReducer,
   loader: loadingReducer,
+  language: languageReducer,
 });
 
 // const persistedReducer = persistReducer(persistConfig, rootReducer);

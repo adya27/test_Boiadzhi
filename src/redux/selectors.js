@@ -1,7 +1,7 @@
-import { createSelector } from "@reduxjs/toolkit";
+// import { createSelector } from "@reduxjs/toolkit";
 
 export const getLoading = (state) => state.loader;
-export const getContacts = (state) => state.contacts;
+export const getLanguage = (state) => state.language;
 export const getFilter = (state) => state.filter;
 
 // export const getVisibleContacts = (state) =>
@@ -9,8 +9,18 @@ export const getFilter = (state) => state.filter;
 //     contact.name.toLowerCase().includes(getFilter(state))
 //   );
 
-export const getVisibleContacts = createSelector(
-  [getContacts, getFilter],
-  (contacts, filter) =>
-    contacts.filter((contact) => contact.name.toLowerCase().includes(filter))
-);
+// export const getVisibleContacts = createSelector(
+//   [getContacts, getFilter],
+//   (contacts, filter) =>
+//     contacts.filter((contact) => contact.name.toLowerCase().includes(filter))
+// );
+
+export const getFilteredData = (state) =>
+  state.data.filter(
+    (contact) =>
+      contact.name.toLowerCase().includes(state.filter) ||
+      contact.name
+        .toLowerCase()
+        .replace(/^([^\s]+)(\s+)([^\s]+)/, "$3$2$1")
+        .includes(state.filter)
+  );

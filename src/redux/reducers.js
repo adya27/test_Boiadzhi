@@ -1,32 +1,27 @@
 import { createReducer } from "@reduxjs/toolkit";
 
 import {
-  addContactSuccess,
-  addContactRequest,
-  addContactError,
-  deleteContactSuccess,
-  deleteContactRequest,
-  deleteContactError,
-  fetchContactSuccess,
-  filterContact,
+  fetchDataSuccess,
+  filterData,
+  toggleFavorite,
+  toggleLanguage,
 } from "./actions";
 
-export const contactsReducer = createReducer([], {
-  [addContactSuccess]: (state, { payload }) => [...state, payload],
-  [fetchContactSuccess]: (state, { payload }) => payload.data,
-  [deleteContactSuccess]: (state, { payload }) =>
-    state.filter((contact) => contact.id !== payload),
+export const dataReducer = createReducer([], {
+  [fetchDataSuccess]: (_, { payload }) => payload.data,
+  [toggleFavorite]: (state, { payload }) => [
+    ...state.filter((item) => item.id !== payload.id),
+    { ...payload, favourite: !payload.favourite },
+  ],
 });
 export const filterReducer = createReducer("", {
-  [filterContact]: (_, { payload }) => payload.toLowerCase(),
+  [filterData]: (_, { payload }) => payload.toLowerCase(),
+});
+
+export const languageReducer = createReducer(true, {
+  [toggleLanguage]: (_, { payload }) => payload,
 });
 
 export const loadingReducer = createReducer([], {
-  [addContactSuccess]: () => false,
-  [addContactRequest]: () => true,
-  [addContactError]: () => false,
-  [deleteContactSuccess]: () => false,
-  [deleteContactRequest]: () => true,
-  [deleteContactError]: () => false,
-  [fetchContactSuccess]: () => false,
+  [fetchDataSuccess]: () => false,
 });
