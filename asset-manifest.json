@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/test_Boiadzhi/static/css/main.c8fc4db2.chunk.css",
-    "main.js": "/test_Boiadzhi/static/js/main.09268b73.chunk.js",
-    "main.js.map": "/test_Boiadzhi/static/js/main.09268b73.chunk.js.map",
+    "main.js": "/test_Boiadzhi/static/js/main.40ce1df0.chunk.js",
+    "main.js.map": "/test_Boiadzhi/static/js/main.40ce1df0.chunk.js.map",
     "runtime-main.js": "/test_Boiadzhi/static/js/runtime-main.d0c5fa83.js",
     "runtime-main.js.map": "/test_Boiadzhi/static/js/runtime-main.d0c5fa83.js.map",
     "static/js/2.0d2be706.chunk.js": "/test_Boiadzhi/static/js/2.0d2be706.chunk.js",
@@ -32,6 +32,6 @@
     "static/js/runtime-main.d0c5fa83.js",
     "static/js/2.0d2be706.chunk.js",
     "static/css/main.c8fc4db2.chunk.css",
-    "static/js/main.09268b73.chunk.js"
+    "static/js/main.40ce1df0.chunk.js"
   ]
 }
