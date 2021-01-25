@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test_Boiadzhi/static/css/main.3937da3e.chunk.css",
+    "main.css": "/test_Boiadzhi/static/css/main.c8fc4db2.chunk.css",
     "main.js": "/test_Boiadzhi/static/js/main.5f96a596.chunk.js",
     "main.js.map": "/test_Boiadzhi/static/js/main.5f96a596.chunk.js.map",
     "runtime-main.js": "/test_Boiadzhi/static/js/runtime-main.f89b0852.js",
@@ -10,7 +10,7 @@
     "static/js/3.e1212e29.chunk.js": "/test_Boiadzhi/static/js/3.e1212e29.chunk.js",
     "static/js/3.e1212e29.chunk.js.map": "/test_Boiadzhi/static/js/3.e1212e29.chunk.js.map",
     "index.html": "/test_Boiadzhi/index.html",
-    "static/css/main.3937da3e.chunk.css.map": "/test_Boiadzhi/static/css/main.3937da3e.chunk.css.map",
+    "static/css/main.c8fc4db2.chunk.css.map": "/test_Boiadzhi/static/css/main.c8fc4db2.chunk.css.map",
     "static/js/2.a8516d03.chunk.js.LICENSE.txt": "/test_Boiadzhi/static/js/2.a8516d03.chunk.js.LICENSE.txt",
     "static/media/boy.f3c295e7.mp4": "/test_Boiadzhi/static/media/boy.f3c295e7.mp4",
     "static/media/cat.f1e619fb.svg": "/test_Boiadzhi/static/media/cat.f1e619fb.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.f89b0852.js",
     "static/js/2.a8516d03.chunk.js",
-    "static/css/main.3937da3e.chunk.css",
+    "static/css/main.c8fc4db2.chunk.css",
     "static/js/main.5f96a596.chunk.js"
   ]
 }
